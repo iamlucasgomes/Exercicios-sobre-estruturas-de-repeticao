@@ -14,19 +14,19 @@ function tabuadaMultiplicacao(multiplicador) {
     // usei uma estrutura de repetição onde vamos repetir a operação abaixo ate o limite determinado por numeros.length
     resultado.push(numeros[indice] * multiplicador); // usei o método .push para adicionar o resultado da multiplicação de numeros com o multiplicador na array resultado
     console.log(
-      numeros[indice] + ' x ' + multiplicador + ' = ' + resultado[indice]
+      multiplicador + ' x ' + numeros[indice] + ' = ' + resultado[indice]
     ); // usei o console.log concatenando o simbolo de multiplicação e de igual em forma de String para ter uma melhor apresentação do resultado
   }
 }
 
 tabuadaMultiplicacao(5); //  usando o formato de apresentação coloquei a chamada da função com o multiplicador no valor de 5
-// '1 x 5 = 5'
-// '2 x 5 = 10'
-// '3 x 5 = 15'
-// '4 x 5 = 20'
+// '5 x 1 = 5'
+// '5 x 2 = 10'
+// '5 x 3 = 15'
+// '5 x 4 = 20'
 // '5 x 5 = 25'
-// '6 x 5 = 30'
-// '7 x 5 = 35'
-// '8 x 5 = 40'
-// '9 x 5 = 45'
-// '10 x 5 = 50'
+// '5 x 6 = 30'
+// '5 x 7 = 35'
+// '5 x 8 = 40'
+// '5 x 9 = 45'
+// '5 x 10 = 50'
