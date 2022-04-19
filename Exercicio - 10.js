@@ -24,7 +24,7 @@ function sequenciaFibonacci(limite) {
 ////////////////////////////////////////MODO DINAMICO////////////////////////////////////////////////
 
 function sequenciaFibonacci(num1, num2, limite) {
-    // crie uma função onde vou atribuir 3 parâmetros, os 2 numeros iniciais e o limite da sequencia de fibo
+    // criei uma função onde vou atribuir 3 parâmetros, os 2 numeros iniciais e o limite da sequencia de fibo
     var fibonacci = [num1, num2]; // criei a variável fibonnaci e atribuí um array com nossas variáveis usada no parâmetro da função
     for (var i = 2; i < limite; i++) {
       // criei uma estrutura de repetição startando do 2º elemento do array fibonacci porque os indices 0 e 1 ja foram atribuídos na array
